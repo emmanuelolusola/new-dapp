@@ -213,7 +213,7 @@ p {
     background: #ffffff;
     border-radius: 1rem;
     border: 3px #000000 solid;
-    min-height: 750px;
+    min-height: 700px;
     width: 90%;
     margin: 20px auto;
     display: flex;
@@ -234,8 +234,15 @@ p {
   .box-hr-p {
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 14px;
+    font-size: 12px;
     width: 40%;
+    margin-top: 0;
+  }
+  .box-p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
     margin-top: 0;
   }
 }
