@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+import Home from "./component/pageOne/Home";
+import SelectWallet from "./component/pageTwo/SelectWallet";
+import Form from "./component/pageThree/Form";
+import Error from "./component/pageThree/Error";
+
+import "./App.css";
+import ScrollToTopOnRouteChange from "./ScrollToTopOnRouteChange";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <ScrollToTopOnRouteChange />
+      <Routes>
+        <Route path="/select" element={<SelectWallet />} />
+        <Route path="/form" element={<Form />} />
+        <Route path="/error" element={<Error />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

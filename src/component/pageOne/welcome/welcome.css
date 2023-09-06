@@ -1,0 +1,241 @@
+.welcome-container {
+  padding-top: 3rem;
+  max-width: 450px;
+  margin: 40px auto 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  background: #ffffff;
+  border-radius: 1rem;
+  border: 3px #000000 solid;
+  min-height: 700px;
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  //justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0 6px 10px #0000001a, 0 10px 32px #2722241a;
+}
+
+.ig-handle {
+  height: 50px;
+  padding: 0 4px;
+  margin-top: 0.5rem;
+}
+
+.box-p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 0;
+}
+.box-p2 {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+.box-hr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.line {
+  width: 30%;
+  background-color: #000;
+  border: 0.2px solid #333;
+}
+
+.box-eth {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.box-eth button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 40px;
+  padding: 6px;
+  border-radius: 0.4rem;
+  border: 1px solid #f1f4f6;
+  color: #000;
+  background-color: #f1f4f6;
+}
+.connect-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 40px;
+  padding: 6px;
+  border-radius: 2rem;
+  border: 1px solid #000;
+  color: #000;
+  background-color: #f1f4f6;
+  margin-top: 1rem;
+  //font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.connect-buttons button {
+  border: none;
+  background: none;
+  width: 100%;
+}
+.connect-buttons button:hover {
+  color: #fff;
+}
+
+.connect-buttons:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 40px;
+  padding: 6px;
+  border-radius: 2rem;
+  border: 1px solid #000;
+  color: #fff;
+  background-color: #000;
+  margin-top: 1rem;
+  //font-weight: 600;
+  font-size: 14px;
+}
+
+.box-eth p {
+  margin-top: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.box-top {
+  background-color: #000;
+  padding: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.box-hr-p {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 14px;
+  width: 30%;
+  margin-top: 0;
+}
+
+.box-topbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-topbox1 {
+  width: 20%;
+  background-color: #fff;
+  border-radius: 10px;
+  //height: 41px;
+  align-items: center;
+}
+.box-topbox1 p {
+  color: #000;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 0;
+}
+
+.w3p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.w3p p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  margin-top: 0;
+  color: #666;
+  font-weight: 700;
+}
+
+.sm {
+  padding: 0 4px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 68px;
+}
+
+.box {
+  //width: 50%;
+  height: 300px;
+  border-radius: 25px;
+  border: 4 solid red;
+}
+
+.crypto {
+  width: 500px;
+  height: 500px;
+}
+
+p {
+  font-size: 24px;
+  margin-top: 2rem;
+}
+
+.cp-ryt {
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 11px;
+}
+
+@media (max-width: 1024px) {
+  .box {
+    background: #ffffff;
+    border-radius: 1rem;
+    border: 3px #000000 solid;
+    min-height: 750px;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    //justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 6px 10px #0000001a, 0 10px 32px #2722241a;
+  }
+
+  .line {
+    width: 25%;
+    background-color: #000;
+    border: 0.2px solid #333;
+  }
+
+  .box-hr-p {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 14px;
+    width: 40%;
+    margin-top: 0;
+  }
+}

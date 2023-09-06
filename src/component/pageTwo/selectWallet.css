@@ -2,9 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  //background-color: #f5f5f7;
 }
 
 body {
   background-color: #0f0e13;
+}
+
+.select-bg {
+  background-color: #fff;
 }

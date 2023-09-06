@@ -1,0 +1,31 @@
+.footer-container {
+  margin-top: 10rem;
+  font-family: var(--font-family);
+  color: #f5f5f7;
+}
+
+.get-started {
+  background: rgb(24, 34, 112);
+  background: linear-gradient(
+    133deg,
+    rgba(24, 34, 112, 1) 0%,
+    rgba(164, 60, 255, 1) 49%,
+    rgba(185, 23, 219, 1) 100%
+  );
+  padding: 50px 10%;
+}
+
+.revert-button {
+  color: rgb(24, 34, 112);
+  background: #fff;
+  width: 220px;
+  margin-top: 20px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright-p {
+  font-size: 12px;
+}
